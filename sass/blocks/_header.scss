@@ -1,0 +1,67 @@
+.page {
+
+}
+.page__header {
+
+}
+.header {
+	min-height: 85px;
+}
+.content {
+	width: 100%;
+	max-width: $content-width;
+	margin: 0 auto;
+}
+.header__nav {
+	
+}
+.nav {
+	
+}
+.nav__logo {
+
+}
+.nav__menu {
+
+}
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+.menu__item {
+	list-style-type: none;
+}
+.menu__link {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav_login-btn {
+	border-radius: 16px;
+	background: $cLogin-Btn;
+	text-transform: uppercase;
+	color: $cWhite-Text;
+	padding: 12px 30px;
+	text-decoration: none;
+
+}
+.btn {
+	display: inline-block;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
+.header__banner {
+
+}
+.banner {
+	display : flex;
+}
+.banner__title {
+
+}
+.banner__sub-heading {
+	display: block;
+}
+.banner__btn {
+
+}

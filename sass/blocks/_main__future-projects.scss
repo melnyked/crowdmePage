@@ -1,0 +1,147 @@
+.main__future-projects {
+    
+}
+.future-projects {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.future-projects__title {
+    
+}
+.future-project__text {
+    
+}
+.future-projects__member-btn {
+    
+}
+.btn {
+    
+}
+.future-projects__figures {
+    
+}
+.figures {
+   display: flex;
+   justify-content: space-between;
+}
+.figure {
+    border: 1px solid #e5e5e5;
+    /*потрібно перенести в змінні полір границі*/
+    width: 300px;
+    margin: 0;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: #484848;
+    /* перевірити чи переоприділиться на заголовок та текс і на все інше в блоці*/
+    background-color: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+
+}
+.figure__img-wrap {
+	position: relative;
+    width: 100%;
+    &:before {
+        content: "new";
+        position: absolute;
+        top: -5px;
+        left: -37px;
+        line-height: 50px;
+        width: 110px;
+        height: 50px;
+        text-align: center;
+        background-color: $green-Atlantis;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transform: rotate(-45deg);
+    }
+}
+.figure__img {
+    width: 100%;
+}
+.figure__img-gbp {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	color: $cWhite-Text;
+	background-color: $summer-sky;
+}
+.figure__img-value {
+	font-weight: bold;
+	&:before {
+		content: "GBP ";
+	}
+}
+.figure__text-wrap {
+	padding: 20px;
+}
+.figure__figcaption {
+    font-weight: bold;
+    font-size: 17px;
+}
+.figure__text {
+    font-weight: normal;
+    font-size: 13px;
+}
+.figure__progress {
+    border: none;                     // границя у всіх браузерах
+	border-radius: 5px;               // зкруглення зовнішньої границі у всіх
+	box-sizing: border-box;
+	height: 14px;
+	width: 100%;
+	color: $green-Atlantis;           // змінює колір внутрішнього блоку в IE
+	background-color: #e3e3e3;        // змінює колір фону в IE та Mozilla
+	overflow: hidden;
+	
+	&::-webkit-progress-bar {         // змінюється зовнішній блок
+        border-radius: 5px;
+		background-color: #e3e3e3;
+    }
+    &::-webkit-progress-value {       // змінюється внутрішній блок
+        background-color: $green-Atlantis;
+		border-radius: 5px 0 0 5px;
+    }
+    &::-moz-progress-bar {            // змінюється внутрішній блок
+        background-color: $green-Atlantis;
+		border-radius: 5px 0 0 5px;
+    }
+}
+.figure__funded-and-days {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0;
+}
+.figure__funded {
+    
+}
+.figure__funded-value {
+    
+}
+.figure__days {
+    
+}
+.figure__days-value {
+    
+}
+.figure__view-datails {
+	font-size: 600;
+    text-decoration: none;
+    color: #484848;
+}
+.figure__arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 12px solid $green-Atlantis;
+    border-bottom: 10px solid transparent;
+}
+
+
+// при разрешении 800 и меньше .figure - margin небольшой по бокам необходимо сделать
